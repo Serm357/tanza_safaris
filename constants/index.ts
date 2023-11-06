@@ -1,7 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_tanza_safari_work", label: "How Tanza Safari Work?" },
+  {
+    href: "/",
+    key: "how_tanza_safaris_work",
+    label: "How Tanza Safaris Work?",
+  },
   { href: "/", key: "services", label: "Services" },
   { href: "/", key: "pricing ", label: "Pricing " },
   { href: "/", key: "contact_us", label: "Contact Us" },
@@ -52,7 +56,7 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      "About Tanza Safari",
+      "About Tanza Safaris",
       "Press Releases",
       "Environment",
       "Jobs",
@@ -65,7 +69,7 @@ export const FOOTER_LINKS = [
     links: [
       "Climbing mt.Meru",
       "Hiking Kilimanjaro",
-      "Tanza Safari Dar-es-salaam",
+      "Tanza Safaris Dar-es-salaam",
     ],
   },
 ];
@@ -75,6 +79,7 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: "Admin Officer", value: "123-456-7890" },
     { label: "Email Officer", value: "contact@tanzasafaris.com" },
+    { label: "Developer Contact", value: "sermdeveloper@gmail.com" },
   ],
 };
 
