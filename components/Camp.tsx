@@ -66,7 +66,32 @@ const Camp = () => {
           peopleJoined="50+ Joined"
         />
       </div>
-
+      {/*  test-section*/}
+      <div className="m-3 p-3">
+        <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+          <div className="relative">
+            <Image src="/kili-hike.jpg" alt="map" width={80} height={80} />
+            <div className="absolute top-2 left-2">
+              <Image src="/map.svg" alt="map" width={20} height={20} />
+              <p className=" text-green-50">marangu route</p>
+            </div>
+          </div>
+          <div className="relative">
+            <Image src="/kili-hike.jpg" alt="map" width={80} height={80} />
+            <div className="absolute top-2 left-2">
+              <Image src="/map.svg" alt="map" width={20} height={20} />
+              <p className=" text-green-50">marangu route</p>
+            </div>
+          </div>
+          <div className="relative">
+            <Image src="/kili-hike.jpg" alt="map" width={80} height={80} />
+            <div className="absolute top-2 left-2">
+              <Image src="/map.svg" alt="map" width={20} height={20} />
+              <p className=" text-green-50">marangu route</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
