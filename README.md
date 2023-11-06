@@ -4,7 +4,7 @@
 
 ## Introduction
 
-⭐ ⭐ ⭐ This stunning travel site Landing Page includes:-
+⭐ ⭐ ⭐ This stunning travel site App Landing Page includes:-
 
 - An appealing hero section
 - A camp section featuring various camps to explore
